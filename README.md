@@ -26,7 +26,6 @@ A boilerplate/starter project for quickly building web using React with Vite
   ```
 - Install all packages by typing `npm install` or `yarn`.
 - Project ready to develop.
-- Before you run this project, you can setup husky by typing `yarn prepare` or `npm run prepare`.
 - You can run this project by typing `yarn dev` or `npm run dev`.
 - You can push/publish to your own github by changing some configuration in `package.json` based on the configuration you want.
 
