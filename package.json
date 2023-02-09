@@ -11,32 +11,32 @@
 		"build": "vite build",
 		"preview": "vite preview",
 		"prepare": "husky install",
-		"lint": "eslint . --cache --fix",
-		"format": "prettier --loglevel warn --write \"**/*.{js,jsx,json,md}\""
+		"lint": "eslint . --fix",
+		"format": "prettier --write \"**/*.{js,jsx,json,md}\""
 	},
 	"dependencies": {
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0"
 	},
 	"devDependencies": {
-		"@types/react": "^18.0.26",
-		"@types/react-dom": "^18.0.9",
-		"@vitejs/plugin-react": "^3.0.0",
-		"eslint": "^8.29.0",
+		"@types/react": "^18.0.27",
+		"@types/react-dom": "^18.0.10",
+		"@vitejs/plugin-react": "^3.1.0",
+		"eslint": "^8.33.0",
 		"eslint-config-airbnb": "^19.0.4",
-		"eslint-config-prettier": "^8.5.0",
-		"eslint-plugin-import": "^2.26.0",
-		"eslint-plugin-jsx-a11y": "^6.6.1",
+		"eslint-config-prettier": "^8.6.0",
+		"eslint-plugin-import": "^2.27.5",
+		"eslint-plugin-jsx-a11y": "^6.7.1",
 		"eslint-plugin-prettier": "^4.2.1",
-		"eslint-plugin-react": "^7.31.11",
+		"eslint-plugin-react": "^7.32.2",
 		"eslint-plugin-react-hooks": "^4.6.0",
-		"husky": "^8.0.2",
-		"lint-staged": "^13.1.0",
-		"prettier": "^2.8.1",
-		"vite": "^4.0.0"
+		"husky": "^8.0.3",
+		"lint-staged": "^13.1.1",
+		"prettier": "^2.8.4",
+		"vite": "^4.1.1"
 	},
 	"lint-staged": {
-		"*.{js,jsx}": "eslint --cache --fix",
+		"*.{js,jsx}": "eslint --fix",
 		"*.{js,jsx,md}": "prettier --write"
 	}
 }
